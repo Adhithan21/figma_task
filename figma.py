@@ -27,7 +27,7 @@ if menu == "Home":
         st.image(r"https://github.com/Adhithan21/figma_task/blob/main/images/brand.png.png", caption="Brand Shoes")
     with cols[2]:
         st.markdown("## Top Stores")
-        st.image(r"images/store.png", caption="Store")
+        st.image(r"https://github.com/Adhithan21/figma_task/blob/main/images/stor.png.jpg", caption="Store")
        
     st.markdown("## Get Everything")
     st.text("Explore it...")
