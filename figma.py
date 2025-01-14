@@ -1,5 +1,4 @@
 import streamlit as st
-import os
 
 # Sidebar with styled header
 st.sidebar.header(":blue[Menu]")
@@ -19,7 +18,7 @@ if menu == "Home":
     cols = st.columns(3)
 
     with cols[0]:
-        st.image(os.path.abspath("images/food.png"), caption="Food Types")
+        st.image("images/brand.png", caption="Brand Shoes")
     with cols[1]:
         st.markdown("## Top Brands")
         st.image("images/brand.png", caption="Brand Shoes")
