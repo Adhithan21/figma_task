@@ -18,13 +18,13 @@ if menu == "Home":
     cols = st.columns(3)
 
     with cols[0]:
-        st.image("images/brand.png.png", caption="Food Types")
+        st.image("images/food.png.png", caption="Food Types")
     with cols[1]:
         st.markdown("## Top Brands")
-        st.image("images/brand.png", caption="Brand Shoes")
+        st.image("images/brand.png.png", caption="Brand Shoes")
     with cols[2]:
         st.markdown("## Top Stores")
-        st.image("images/store.png", caption="Store")
+        st.image("images/store.png.png", caption="Store")
        
     st.markdown("## Get Everything")
     st.text("Explore it...")
@@ -32,12 +32,12 @@ if menu == "Home":
 elif menu == "Top Recipes":
     st.title(":blue[Top Recipes]")
     st.markdown("Here you can find all your favorite recipes!")
-    st.image("images/shoes.png", caption="Brand Shoes")
+    st.image("images/food.png.png", caption="Brand Shoes")
 
 elif menu == "Brand Shoes":
     st.title(":green[Brand Shoes]")
     st.markdown("Discover the latest trending shoes!")
-    st.image("images/store.png", caption="Store")
+    st.image("images/brand.png.png", caption="Store")
 
 elif menu == "About Us":
     st.title(":red[About Us]")
