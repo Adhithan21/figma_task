@@ -3,14 +3,6 @@ from PIL import Image
 import requests
 from io import BytesIO
 
-# Fetch the image dynamically from a URL
-response = requests.get("https://via.placeholder.com/300")
-img = Image.open(BytesIO(response.content))
-
-# Display the image with a caption
-st.image(img, caption="Dynamically Loaded Image")
-
-
 # Sidebar with styled header
 st.sidebar.header(":blue[Menu]")
 menu = st.sidebar.radio(
