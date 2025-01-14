@@ -21,7 +21,7 @@ if menu == "Home":
     cols = st.columns(3)
 
     with cols[0]:
-        st.image(r"https://github.com/Adhithan21/figma_task/blob/main/images/food.png.png", caption="Food Types")
+        st.image("images/food.png", caption="Food Types")
     with cols[1]:
         st.markdown("## Top Brands")
         st.image(r"https://github.com/Adhithan21/figma_task/blob/main/images/brand.png.png", caption="Brand Shoes")
