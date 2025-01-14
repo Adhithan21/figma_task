@@ -24,7 +24,7 @@ if menu == "Home":
         st.image("images/brand.png.png", caption="Brand Shoes")
     with cols[2]:
         st.markdown("## Top Stores")
-        st.image("images/stor.png.png", caption="Store")
+        st.image("images/store.jpg", caption="Store")
        
     st.markdown("## Get Everything")
     st.text("Explore it...")
